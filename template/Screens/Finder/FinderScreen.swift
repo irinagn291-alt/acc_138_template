@@ -67,7 +67,7 @@ struct _GmBl0027Xy: View {
             }
         case ._ec0023:
             _GmBl0047Xy(_gm0158: "tray", _gm0159: "Nothing found",
-                         _gm0160: "No groceries matched "\(_gm0089._gm0093)". Try a simpler term.")
+                         _gm0160: "No groceries matched \"\(_gm0089._gm0093)\". Try a simpler term.")
             Spacer()
         case ._ec0024(let msg):
             _GmBl0047Xy(_gm0158: "wifi.slash", _gm0159: "Can't search", _gm0160: msg)

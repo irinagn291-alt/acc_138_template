@@ -32,10 +32,10 @@ struct _GmBl0005Xy: ViewModifier {
 
 extension View {
     func _gm0024(_ radius: CGFloat = _GmBl0010Xy._gm0019) -> some View {
-        modifier(_GmBl0004Xy(radius: radius))
+        modifier(_GmBl0004Xy(_gm0022: radius))
     }
     func _gm0025(_ radius: CGFloat = _GmBl0010Xy._gm0020) -> some View {
-        modifier(_GmBl0005Xy(radius: radius))
+        modifier(_GmBl0005Xy(_gm0023: radius))
     }
 }
 
