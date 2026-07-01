@@ -60,8 +60,6 @@ struct _GmBl0043Xy: View {
             _gm0150("envelope.fill", "Contact us", _GmBl0008Xy._gm0004) { _gm0144 = ._ec0029 }
             Divider().padding(.leading, 50)
             _gm0150("star.fill", "Rate Larder", _GmBl0008Xy._gm0010) { _gm0196() }
-            Divider().padding(.leading, 50)
-            _gm0150("hand.raised.fill", "Privacy policy", _GmBl0008Xy._gm0006) { _gm0144 = ._ec0030 }
         }
         ._gm0024()
     }
@@ -94,12 +92,8 @@ struct _GmBl0043Xy: View {
 }
 
 private enum _GmBl0044Xy: Identifiable {
-    case _ec0029, _ec0030
+    case _ec0029
     var id: String { _gm0151 }
-    var _gm0151: String { self == ._ec0029 ? "Contact" : "Privacy" }
-    var _gm0152: String {
-        self == ._ec0029
-            ? _sd("aHR0cHM6Ly9uZXctZ2V0bGFyZGVyLnByby9jb250YWN0")
-            : _sd("aHR0cHM6Ly9uZXctZ2V0bGFyZGVyLnByby9wcml2YWN5")
-    }
+    var _gm0151: String { "Contact" }
+    var _gm0152: String { _sd("aHR0cHM6Ly9uZXctZ2V0bGFyZGVyLnByby9jb250YWN0LXVz") }
 }
